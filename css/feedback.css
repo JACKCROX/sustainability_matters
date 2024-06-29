@@ -1,0 +1,72 @@
+/* * 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body
+{
+    /* background: rgb(89, 70, 168); */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#web_container{
+    background: linear-gradient(to right,rgb(138, 221, 240), rgb(89, 70, 168), rgb(234, 220, 233));
+    padding:  50px;
+    position: relative;
+}
+
+#form_container{
+    margin-top: 32px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);   
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.radio{
+    padding:0px 0px;
+}
+
+.radio1{
+    padding:0px 0px;
+    font-size: 2rem;
+}
+
+#customRange1{
+    background-color: rgba(89, 70, 168,0.5);
+    border-radius: 5rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);  
+}
+
+#form_container{
+    margin-top: 90px;
+}
+
+#button{
+    background: linear-gradient(to right,rgb(138, 240, 144), rgb(170, 165, 190), rgb(234, 220, 233)); /*linear-gradient(to right,rgb(138, 221, 240), rgb(89, 70, 168), rgb(234, 220, 233));*/
+    border-radius: 3rem;
+    border:2px solid rgba(255, 255, 255, 0.18);
+    width:100px;
+    height: 53px;
+    padding:5px;
+    color: black;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+    animation: bounce 0.5s ease-in-out infinite alternate; /* Bounce Animation */
+}
+
+@keyframes bounce{
+    from{
+        transform: translateY(3px);
+    }
+    to{
+        transform: translateY(-3px);
+    }
+}
+
+.feedback_shadow{
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); 
+    border-radius: 10px;;
+}
+

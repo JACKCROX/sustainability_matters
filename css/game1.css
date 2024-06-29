@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#wizard1{
+    background-color: transparent;
+}
+
+#wizard{
+    animation: bounce 0.5s ease-in-out infinite alternate; /* Bounce Animation */
+    background-color: transparent;
+}
+
+@keyframes bounce{
+   from {
+    transform: translateY(10px); /* Move the element 10px downwards*/
+   }
+   to{
+    transform: translateY(-10px);/* Move the element 10px upwards*/
+   }
+}
+
+
+
+.game{
+	background-image: url(../images/game.png);
+    background-size: cover;
+    width: 500px;
+    height: 203px;
+    border: 1px solid black;
+    margin: auto;
+}
+#character{
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/gamecharacter.png);
+    background-size: cover;
+    background-color: transparent;
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-image: url(../images/enemycharacter.png);
+    background-size: cover;
+    background-color: transparent;
+    width: 30px;
+    height: 50px;
+    position: relative;
+    top: 110px;
+    left: 500px;
+    animation: block 1.5s infinite linear; /* Animation for the block */
+}
+@keyframes block{
+    0%{left: 500px} /* Initial position of the block */
+    100%{left: -20px} /* Final position of the block */
+}
+p{
+    text-align: center;
+    color: white;
+}

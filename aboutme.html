@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sustainability Matters</title>
+	<link rel="icon" type="image/x-icon" href="./images/tree.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/general.css" rel="stylesheet" type="text/css">
+    <link href="./css/aboutme.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-transparent fixed-top" aria-label="navbar" > <!--acknownledging to know for navbar--expand after beyond lg-->
+      <div class="container-fluid">
+  
+  
+        <!--Navbar Hamburger Icon-->
+  
+        <button class="navbar-toggler bg-success-subtle"  type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!--End of Navbar Hamburger Icon-->
+  
+        <!--Start of Navigation Items-->
+        <div class="collapse navbar-collapse flex-grow-0 " id="navbar"> 
+			<form class="row g-3 me-3" id="form">
+				<div class="col-auto">
+					<i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+				</div>
+				<div class="col-auto">
+				  <label for="inputPassword2" class="visually-hidden">Search</label>
+				  <input type="search" size="21" class="form-control bg-dark-subtle" id="inputPassword2" placeholder="Search">
+				</div>
+			</form>
+
+			<ul class="navbar-nav">
+
+            <li class="nav-item me-3">
+              <a class="nav-link text-light" href="savetheearth.html">Save The Earth</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link text-light" href="aboutme.html">About Me</a>
+            </li>
+  
+            <li class="nav-item me-3">
+              <a class="nav-link text-light" href="index.html">Goals</a>
+            </li>
+  
+  
+            <li class="nav-item me-3">
+              <a class="nav-link text-light" href="sp.html">Sustainability</a>
+            </li>
+
+			<li class="nav-item me-3">
+				<a class="nav-link text-light" href="feeback_form.html">Feedback</a>
+			</li>
+
+
+            <!--dropdown toggler-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light ms-4 me-5 " href="#" data-bs-toggle="dropdown" aria-expanded="false">Games</a>
+              <ul class="dropdown-menu bg-dark-subtle">
+                <li><a class="dropdown-item text-dark" target="_blank" href="game1.html"><i class="fa-solid fa-gamepad fa-beat" style="color: #000000;"></i> <strong>Game 1</strong></a></li>
+                <li><a class="dropdown-item text-dark" target="_blank" href="game2.html"><i class="fa-solid fa-gamepad fa-beat" style="color: #000000;"></i> <strong>Game 2</strong></a></li>
+              </ul>
+            </li>
+			<li>
+				<a href="https://www.theguardian.com/world" target="_blank" id="nav_logo"><i class="fa-solid fa-earth-americas fa-spin fa-spin-reverse" style="color: #ffffff;"></i> APEXPREDATOR |</a>
+			</li>
+          </ul>
+    
+        <!--End of Navigation Items-->
+      </div>
+    </div>
+    </nav>  
+  </header>
+
+	<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+		<div class="carousel-indicators">
+			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="..." class="d-block w-100" src="./images/interest.png">
+				<div class="carousel-caption">
+					<h5>My Interest</h5>
+					<p>"Embracing my interests, I navigate uncharted territories, unlocking the treasures of wisdom and inspiration along the way."</p>
+					<p class="btn btn-outline-warning mt-3" id="button_interest_section">More about my interest</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="./images/value.png">
+				<div class="carousel-caption">
+					<h5>My Value</h5>
+					<p>"Continuous learning and growth are my core values. Embracing knowledge and seeking personal development empower me to adapt, improve, and excel in every aspect of life."</p>
+					<p class="btn btn-outline-warning mt-3" id="button_value_section">More about my value</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="./images/personality.jpg">
+				<div class="carousel-caption">
+					<h5>My Personalities</h5>
+					<p>
+           			 "An indomitable spirit with a heart full of empathy. Through kindness and resilience, you illuminate the lives of those around you, leaving a lasting impression of warmth and strength."</p>
+						<p class="btn btn-outline-warning mt-3" id="button_personality_section">More about my personality</p>
+				</div>
+			</div>
+		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+	</div>
+	<!-- about section starts -->
+	<div class="about-section">
+	<div class="wrapper">
+		<ul class="dynamic-txts">
+		  <li><span>"LIN HTET"</span></li>
+		  <li><span>IT student</span></li>
+		  <li><span>Designer</span></li>
+		  <li><span>YouTuber</span></li>
+		</ul>
+	  </div>
+	</div>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12 col-md-8 col-lg-8">
+				<h1>About Me</h1>
+				<h2 class="text-danger">IT student</h2>
+				<p>Currently, I am studying IT in Singapore Polytechnic. I am learning frontended language [HTML,CSS,Javascript].I've got a lot of memorable moments with my classmates since the class has started.</p>
+				<h2 class="text-danger">UI/UX Designer</h2>
+				<p>I have been interesting in UI/UX since my age of 16.I also joined the UI/UX class few months ago.In present, I am doing some UI projects.</p>
+				<h2 class="text-danger">YouTuber</h2>
+				<p>It will become in near future because now, I am focusing on magnetisation YouTube channel with my friends.All of the content videos will be a type of social experience. However,I used to upload music editing video on YouTube.</p>
+			</div>
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<img class="img-fluid border rounded-5 shadow-lg" src="./images/profile.jpg" alt=""> 
+			</div>
+		</div>
+	</div>
+<!--about section end-->
+<!--My interest section-->
+	<section class="about section-padding" id="interest_section">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+				<div class="soul_image"><img alt="" class="img-fluid" src="./images/characters.png"></div>
+        <!--Game -->
+        	</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2>Drawing Game Characters<br>
+						 Developing Games</h2>
+						<p> Drawing game characters is not just a hobby for me; it's a gateway to boundless creativity and a celebration of the captivating worlds that game developers craft. It allows me to pay tribute to the characters that have left a lasting impact on my gaming experiences while inspiring others to appreciate the magic of video games through art.</p>
+            			<a class="btn btn-warning" target="_blank" href="game1.html">Join Game 1</a>
+            			<a class="btn btn-warning" target="_blank" href="game2.html">Join Game 2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services section-padding" id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2 class="display-2">UI/UX</h2>
+						<p>I am really into designing web pages.It likely means I have a passion for enhancing the digital experience for users.</p>
+						<p>These are my some projects using "Figma"[cloud-based design]</p>
+						<p id="figma_text"><i class="fa-brands fa-figma fa-beat" style="color: #000000;"></i> You can go to the website by "Clicking"<a href="https://www.figma.com/" target="_blank" class="text-dark" style="text-decoration: underline;"> here. </a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="text">
+		<h1 class="text-center">
+			You can tap the image to see my project.
+		</h1>
+	</div>
+	<section id="projects">
+		<div class="container">
+			<div class="card">
+				<div class="imagebox">
+				<a href="https://www.figma.com/proto/jMDxDXP266pdsPA5SkcqSI/2ND-WEEK?page-id=0%3A1&type=design&node-id=15-943&viewport=157%2C188%2C0.36&t=KTa3Digrmt8l3ldf-1&scaling=scale-down&starting-point-node-id=15%3A943&show-proto-sidebar=1&mode=design" target="_blank">
+					<img src="./images/project1.png" alt="project1">
+				</a>
+					<h2>Character</h2>
+				</div>
+			</div>
+			<div class="card">
+				<div class="imagebox">
+				<a href="https://www.figma.com/proto/DWx9HqUjyQ3TzJQjJhLkk6/Lesson-02?page-id=0%3A1&type=design&node-id=16-2&viewport=-29%2C65%2C1&t=ipFmklM22Jl2GafF-1&scaling=scale-down&mode=design" target="_blank">
+					<img id="project2" src="./images/project2.png" alt="project1">
+				</a>
+					<h2>Landing Page</h2>
+				</div>
+			</div>
+			<div class="card">
+				<div class="imagebox">
+				<a href="https://www.figma.com/proto/DWx9HqUjyQ3TzJQjJhLkk6/Lesson-02?page-id=0%3A1&type=design&node-id=1-2&viewport=-29%2C65%2C1&t=ipFmklM22Jl2GafF-1&scaling=scale-down&mode=design" target="_blank">
+					<img src="./images/project3.png" alt="project1">
+				</a>
+					<h2>Prototyping</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- My interest section Ends -->
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-center">
+					<h1 class="display-6">If you want to contact me for more interactive design.</h1>
+					<h2 id="contactme" class="border rounded-5">Contact Me</h2>
+					<p>
+						<i class="fa-solid fa-envelope fa-bounce"></i> 200393linn@gmail.com
+					</p>
+					<p>
+						<i class="fa-solid fa-phone-volume fa-shake"></i>  +65 84626339
+					</p>
+				</div>  
+			</div>
+		</div>
+	</div>
+	<!-- My value section strats -->
+  <section class="container_myvalue" id="value_section">
+	<div class="container mt-5" >
+		<div class="row" id="myvalue">
+			<div class="col-12 col-md-6 col-6 mt-5" id="blur_background">
+				<h2 class="display-2 text-dark">My Value</h2>
+				<p>"My values are like the stars; they may not always be visible, but they are always there to guide me on my journey."</p>
+			</div>
+			<div class="col-12 col-md-6 col-6">
+				<img src="./images/myvalue.png" alt="my_value_image" class="img-fluid">
+			</div>
+		</div>
+		<div class="row" id="values">
+			<div class="col-12 col-md-6 col-lg-4" id="face1_text">
+				<div class="face1_image">
+					<img src="./images/face1.png" alt="face1" class="img-fluid">
+				</div>
+				<div>
+					<h3 class="display-6">Respect</h3>
+					<p>I believe in treating all individuals with dignity,
+						regardless of their background, beliefs, or values.</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4" id="face2_text">
+				<div class="face2_image">
+					<img src="./images/face2.png" alt="face2" class="img-fluid">
+				</div>
+				<div>
+					<h3 class="display-6">Excellence</h3>
+					<p>I believe in setting high standards for myself
+						and pursuing excellence in my endeavors.</p>
+				</div>
+			</div>
+			<div class="col-12 col-md-12 col-lg-4" id="face3_text">
+				<div class="face3_image">
+					<img src="./images/face3.png" alt="face3" class="img-fluid">
+				</div>
+				<div>
+					<h3 class="display-6">Growth</h3>
+					<p>Continuous personal growth and self-improvement are essential values to me.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  </section>
+	<!--My value section ends-->
+	<!--My personality section starts-->
+  <section id="personality_section">
+	<div class="container-fluid">
+		<div class="row" id="personality_text">
+			<div class="col-4" id="personality_text1">
+				<h2 class="display-3">My</h2>
+			</div>
+			<div class="col-3">
+				<img class="img-fluid" src="./images/personalityimage.png" alt="">
+			</div>
+			<div class="col-5" id="personality_text2">
+				<h2 class="display-3">Traits</h2>
+			</div>
+		</div>
+	</div>
+  </section>
+  <div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="col-12 col-md-4 col-lg-2 mb-5" >
+			<div id="personality_image">
+				<img src="./images/enfj.png" alt="face1" class="img-fluid">
+			</div>
+			<div id="personalitytext">
+				<h3>Mentor</h3>
+				<p>In ENFJ, they are imiginative and can easily see the bigger picture, making them insightful and creative problem solvers.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 col-lg-2 mb-5">
+			<div id="personality_image1">
+				<img src="./images/enfp.png" alt="face1" class="img-fluid">
+			</div>
+			<div id="personalitytext1">
+				<h3>Doer</h3>
+				<p>In ESTP,they make decision using logical and objective analysis.They are spontaneous flexible and enjoy exploring new opportunities.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 col-lg-2 mb-5">
+			<div id="personality_image2">
+				<img src="./images/estp.png" alt="face1" class="img-fluid">
+			</div>
+			<div id="personalitytext2">
+				<h3>Explorer</h3>
+				<p>In ENFP, they are highly creative individuals who enjoy exploring their imagination and thinking outside the box.They are often drawn to innovative idea.</p>
+			</div>
+		</div>
+		<div class="col-12 col-md-12 col-lg-6">
+			<div >
+				<h3 class="display-6">According to my 16 personality test.</h3>
+				<p>I usually test one time in a month. I have got one of these results everytime.</p>
+				<p>ENFJ,ESTP,ENFP . However, I am more weighed on ENFP.</p>
+				<p>Click the button to test your personality.</p>
+				<div id="personalitytest">
+				<ul class="mt-5 mb-5">
+					<li><a href="">Personality Test</a></li>
+				</ul>
+				</div>
+			</div>
+			<!--Entire website structure-->
+			<div class="col-12 col-md-12 col-lg-12 mb-5" id="progress_container">
+				<h5 class="text-light">Entire Website Structure</h5>
+				<p style="color:white">Javascript</p>
+				<div class="progress">
+				  <div class="progress-bar bg-success" role="progressbar" aria-label="Example with label" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+				</div>
+				<p class="mt-3" style="color:white">CSS</p>
+				<div class="progress">
+				  <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100">25%</div>
+				</div>
+				<p class="mt-3" style="color:white">HTML</p>
+				<div class="progress">
+				  <div class="progress-bar bg-success" role="progressbar" aria-label="Info example" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+  <!--My personality section ends-->
+    <div  id="current-time"></div> <!--current time clock-->
+  	<button onclick="scrollToTop()" id="btn"><i class="fa-solid fa-circle-up"></i> <strong>Up</strong></button> <!--scroll to top button-->
+<!--Contact me-->
+	<footer class="bg-dark p-2">
+				<div>
+					<p style="color: aquamarine;" class="text-center mt-1">Contact Me :</p>
+				</div>
+				<div>
+					<ul class="list-inline list-unstyled text-center">
+						<li class="list-inline-item">
+						  <a href="https://www.facebook.com/profile.php?id=100048327742856" target="_blank" class="text-white" style="font-size: 23px;" ><i class="fab fa-facebook"></i></a>
+						</li>
+						<li class="list-inline-item">
+						  <a href="https://www.instagram.com/linhtet820/" target="_blank" class=" text-white" style="font-size: 23px;" ><i class="fab fa-instagram"></i></a>
+						</li> 
+						<li class="list-inline-item">
+						  <a href="mailto:200393linn@gmail.com" target="_blank" class=" text-white" style="font-size: 23px;" ><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a>
+						</li>
+						<li class="list-inline-item">
+						  <a href="https://discord.com/users/vnousxxx" target="_blank" class=" text-white" style="font-size: 23px;" ><i class="fa-brands fa-discord" style="color: #ffffff;"></i></a>
+						</li>
+					</ul>
+				</div>
+	</footer>
+	<!-- footer ends -->
+	
+
+   <script src="./js/clock.js" defer></script>
+   <script src="./js/scrolltotop.js" defer></script>
+  <script src="./js/sectionlink.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

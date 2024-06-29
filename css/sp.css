@@ -1,0 +1,23 @@
+.youtube-video {
+    border: none; /* Remove the border (equivalent to frameborder="0") */
+    width: 100%; /* Set the desired width */
+    height: 550px; /* Set the desired height */
+  }
+
+#youtube_video1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#youtube_video2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#youtube_video3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+

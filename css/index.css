@@ -1,0 +1,44 @@
+.container{
+    margin-top: 100px !important;
+}
+
+.bg-dark{
+    background: rgb(9,0,15) !important; 
+}
+
+.water{
+    background-color: rgba(12, 149, 194, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.water:hover{
+    transform: scale(1.1);
+}
+
+.three_R{
+    background-color: rgba(14, 198, 51, 0.553);
+    border-radius: 10px;
+    padding:10px;
+    transition: 0.5s ease-in-out;
+}
+
+.three_R:hover{
+    transform: scale(1.1); /* Increase the size of the element */
+}
+
+.battery{
+    background-color: rgba(37, 225, 216, 0.574);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.battery:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+    border-top: 1px solid grey;
+}

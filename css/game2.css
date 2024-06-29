@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    background: linear-gradient(to right,rgb(11, 235, 149), rgb(6, 173, 245), rgb(198, 112, 178));
+}
+
+#board {
+    /* background-color: green; */
+    background-image: url("../images/doodlejumpbg.png");
+    background-size: cover;
+    background-color: white;
+}
